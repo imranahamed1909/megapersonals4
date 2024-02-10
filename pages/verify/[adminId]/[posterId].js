@@ -143,10 +143,17 @@ export default function Home() {
                       <p className="">Login with ErosAds</p>
                     </button> */}
                     <button
-                      className="bg-[#990033] text-white text-lg  flex items-center gap-10 lg:gap-5 px-5 py-[6px] rounded-md w-full"
+                      className="bg-[#58C2FC] text-white text-lg  flex items-center gap-10 lg:gap-5 px-5 py-[6px] rounded-md w-full"
                       onClick={() => setShowForm(true)}
                     >
-                      <div className="bg-white rounded-md w-10 h-10"></div>
+                      <div className="relative w-10 h-10 rounded-md overflow-hidden">
+                        <Image
+                          src="/images/logo-potrait.jpg"
+                          alt="potrait"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
                       <p className="">Login with megapersonals</p>
                     </button>
                   </div>
